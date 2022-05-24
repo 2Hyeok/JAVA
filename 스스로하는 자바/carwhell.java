@@ -1,4 +1,4 @@
-// Å¸ÀÌ¾î ÈÙ ÀÔ·Â½Ã °¡°İ ÀÌ Ãâ·ÂµÇµµ·Ï ÇÏ´Â ÇÔ¼ö
+// íƒ€ì´ì–´ íœ  ì…ë ¥ì‹œ ê°€ê²© ì´ ì¶œë ¥ë˜ë„ë¡ í•˜ëŠ” í•¨ìˆ˜
 import java.util.Scanner;
 
 class Car2 {
@@ -17,7 +17,7 @@ class Car2 {
 			System.out.println(price[2]);
 		}
 		else {
-			System.out.println("Àß¸øµÈ°ª");
+			System.out.println("ì˜ëª»ëœê°’");
 		}
 	}
 }

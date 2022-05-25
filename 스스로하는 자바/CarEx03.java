@@ -1,4 +1,4 @@
-// Â÷ÀÇ ¼Óµµ¸¦ °¢ÀÚ ´Ù¸£°Ô Ãâ·Â
+// ì°¨ì˜ ì†ë„ë¥¼ ê°ì ë‹¤ë¥´ê²Œ ì¶œë ¥ ë¯¸ì™„ì„±
 class Car6 {
 	String model;
 	int speed;
@@ -14,7 +14,7 @@ class Car6 {
 	void run() {
 		for (int i = 10; i <= 50; i += 10) {
 			this.setSpeed(i);
-			System.out.println(this.model + "°¡ ´Ş¸³´Ï´Ù.(½Ã¼Ó : " + this.speed + "km/h)");
+			System.out.println(this.model + "ê°€ ë‹¬ë¦½ë‹ˆë‹¤.(ì‹œì† : " + this.speed + "km/h)");
 		}
 	}
 }
@@ -25,7 +25,7 @@ class Cara extends Car6 {
 	public void run() {
 		for (int i = 10; i <= 110; i += 20) {
 			this.setSpeed(i);
-		System.out.println(this.model + "°¡ ´Ş¸³´Ï´Ù.(½Ã¼Ó : " + this.speed + "km/h)");
+		System.out.println(this.model + "ê°€ ë‹¬ë¦½ë‹ˆë‹¤.(ì‹œì† : " + this.speed + "km/h)");
 		}
 	}
 }
@@ -36,14 +36,14 @@ class Carb extends Car6 {
 	public void run() {
 		for (int i = 10; i <= 50; i += 10) {
 			this.setSpeed(i);
-		System.out.println(this.model + "°¡ ´Ş¸³´Ï´Ù.(½Ã¼Ó : " + this.speed + "km/h)");	
+		System.out.println(this.model + "ê°€ ë‹¬ë¦½ë‹ˆë‹¤.(ì‹œì† : " + this.speed + "km/h)");	
 		}
 	}
 }
 public class CarEx03 {
 	public static void main(String[] args) {
-		Cara ram = new Cara("¶÷º¸¸£±â´Ï");
-		Carb ben = new Carb("º¥Ã÷");
+		Cara ram = new Cara("ëŒë³´ë¥´ê¸°ë‹ˆ");
+		Carb ben = new Carb("ë²¤ì¸ ");
 		ram.run();
 		ben.run();
 	}

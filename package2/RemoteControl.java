@@ -10,12 +10,12 @@ public interface RemoteControl{
 	
 	default void setMute(boolean mute) {
 		if(mute) {
-			System.out.println("¹«À½ Ã³¸®ÇÕ´Ï´Ù");
+			System.out.println("ë¬´ìŒ ì²˜ë¦¬í•©ë‹ˆë‹¤");
 		}else {
-			System.out.println("¹«À½À» ÇØÁ¦ÇÕ´Ï´Ù");
+			System.out.println("ë¬´ìŒì„ í•´ì œí•©ë‹ˆë‹¤");
 		}
 	}
 	static void changeBattery() {
-		System.out.println("ÀüÁö¸¦ ±³È¯ÇÕ´Ï´Ù.");
+		System.out.println("ì „ì§€ë¥¼ êµí™˜í•©ë‹ˆë‹¤.");
 	}
 }

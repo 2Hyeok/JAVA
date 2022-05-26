@@ -3,9 +3,9 @@ package Vehicle;
 public class Bus implements Vehicle{
 	@Override
 	public void run() {
-		System.out.println("¹ö½º°¡ ´Ş¸³´Ï´Ù.");
+		System.out.println("ë²„ìŠ¤ê°€ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 	public void checkFare() {
-		System.out.println("½ÂÂ÷¿ä±İÀ» Ã¼Å©ÇÔ");
+		System.out.println("ìŠ¹ì°¨ìš”ê¸ˆì„ ì²´í¬í•¨");
 	}
 }

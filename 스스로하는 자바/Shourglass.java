@@ -1,6 +1,4 @@
 // 별 모래시계
-import java.util.Scanner;
-
 public class Shourglass {
 	public static void main(String[] args) {
 		int num = 10;
@@ -9,7 +7,7 @@ public class Shourglass {
 			for (int k = 0; k <= i; k++)
 				System.out.print(" ");
 			for (int m = num - i; m > 0; m--)
-				System.out.print("*");
+				System.out.print("* ");
 			if (i == num - 1)
 				break;
 			System.out.println();
@@ -23,5 +21,6 @@ public class Shourglass {
 				break;
 			System.out.println();
 		}
+
 	}
 }

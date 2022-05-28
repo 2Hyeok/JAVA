@@ -1,4 +1,4 @@
-// ·£´ı ¼ıÀÚ Ã£±â
+// ëœë¤ ìˆ«ì ì°¾ê¸°
 import java.util.Random;
 import java.util.Scanner;
 

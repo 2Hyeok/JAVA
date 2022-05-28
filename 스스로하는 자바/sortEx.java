@@ -1,4 +1,4 @@
-// Á¤·Ä
+// ì •ë ¬
 public class sortEx {
 	public static void main(String[] args) {
 		int[] a = {4,8,7,3,1,2,8};

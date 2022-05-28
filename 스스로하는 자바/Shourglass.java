@@ -1,4 +1,4 @@
-// ¸ð·¡½Ã°è ¸¸µé±â
+// ë³„ ëª¨ëž˜ì‹œê³„
 import java.util.Scanner;
 
 public class Shourglass {

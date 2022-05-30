@@ -8,7 +8,7 @@ class Car{
 }
 public class CarEx01 {
 	public static void main(String[] args) {
-		Car myCar = new Car("°ËÁ¤", 3000);
+		Car myCar = new Car("Â°Ã‹ÃÂ¤", 3000);
 		System.out.println(myCar.color);
 		System.out.println(myCar.cc);
 	}

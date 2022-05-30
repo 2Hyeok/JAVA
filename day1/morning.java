@@ -1,4 +1,4 @@
-// question : Box11ÀÇ ¼ýÀÚ´Â?
+// question : Box11의 숫자는?
 public class morning {
 	public static void main(String[] args) {
 		int[] bang = { 0, 2, 1, 1, 4, 6, 5, 2, 12, 5, 19, 1, 0 };

@@ -2,7 +2,7 @@ package StringSplite;
 
 public class StringSplitExample {
 	public static void main(String[] args) {
-		String text = "È«±æµ¿&ÀÌ¼öÈ«,¹Ú¿¬¼ö,±èÀÚ¹Ù-ÃÖ¸íÈ£";
+		String text = "í™ê¸¸ë™&ì´ìˆ˜í™,ë°•ì—°ìˆ˜,ê¹€ìë°”-ìµœëª…í˜¸";
 		String[] names = text.split("&|,|-");
 		
 		for(String name : names) {

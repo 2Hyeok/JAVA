@@ -1,4 +1,4 @@
-// »ı¼ºÀÚ ÃÊ±âÈ­
+// ìƒì„±ì ì´ˆê¸°í™”
 // package = folder
 /*
 class Calc {
@@ -39,7 +39,7 @@ class Calc {
 
 public class InheritEx03 {
 	public static void main(String[] args) {
-		Calc c = new Calc(2, 3); // °´Ã¼»ı¼º½Ã È£Ãâ
+		Calc c = new Calc(2, 3); // ê°ì²´ìƒì„±ì‹œ í˜¸ì¶œ
 		c.sum();
 	}
 }

@@ -9,7 +9,7 @@ public class Counter {
 	
 	@Override
 	protected void finalize() throws Throwable {
-		System.out.println(no + "¹ø °´Ã¼ÀÇ finalize()°¡ ½ÇÇàµÊ"); // ¸ğµç ¾²·¹±â °´Ã¼¸¦ ¼Ò¸êÇÏÁö ¾ÊÀ½
+		System.out.println(no + "ë²ˆ ê°ì²´ì˜ finalize()ê°€ ì‹¤í–‰ë¨"); // ëª¨ë“  ì“°ë ˆê¸° ê°ì²´ë¥¼ ì†Œë©¸í•˜ì§€ ì•ŠìŒ
 		// cnt++;
 	}
 }

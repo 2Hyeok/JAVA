@@ -1,4 +1,4 @@
-//Å¬·¡½ºÀÇ »ó¼Ó ¿¬½À
+//í´ë˜ìŠ¤ì˜ ìƒì† ì—°ìŠµ
 class Employee {
 	String id;
 	String name;
@@ -12,8 +12,8 @@ class Manager extends Employee {
 public class InheritEx01 {
 	public static void main(String[] args) {
 		Manager m = new Manager();
-		m.name = "È«±æµ¿";
-		m.job = "ÆÀÀå";
-		System.out.println(m.name + "Àº" + m.job + "ÀÔ´Ï´Ù");
+		m.name = "í™ê¸¸ë™";
+		m.job = "íŒ€ì¥";
+		System.out.println(m.name + "ì€" + m.job + "ì…ë‹ˆë‹¤");
 	}
 }

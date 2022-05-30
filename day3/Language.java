@@ -1,4 +1,4 @@
-// interface 颇老肺 积己
+// interface 脝脛脌脧路脦 禄媒录潞
 public interface Language {
 	public String getName();
 }

@@ -8,7 +8,7 @@ public class test
 	public static void main(String[] args)
 	{
 	-------------------------------------------------------
-	//¿¬»êÀÚ1
+	//ì—°ì‚°ì1
 		
 		int a, b;
 		double c;
@@ -24,7 +24,7 @@ public class test
 		
 		System.out.println(d);
 		---------------------------------------------
-		//¿¬»êÀÚ2
+		//ì—°ì‚°ì2
 		int a, b ,c;
 		
 		a = 3;
@@ -34,7 +34,7 @@ public class test
 		System.out.println(c);
 		
 		----------------------------------------------
-		//¿¬»êÀÚ3
+		//ì—°ì‚°ì3
 		char c;
 		String name;
 		
@@ -48,7 +48,7 @@ public class test
 		System.out.println("Input value is" + x);
 		
 		-------------------------------------------------
-		//ºñÆ®½¬ÇÁÆ®¿¬¼±ÀÚ
+		//ë¹„íŠ¸ì‰¬í”„íŠ¸ì—°ì„ ì
 		byte a, b; //7bits
 		
 		a = 0x10;
@@ -67,7 +67,7 @@ public class test
 		
 		System.out.format("%8s \n", d);
 		-----------------------------------------------------
-		//if¹®
+		//ifë¬¸
 		int a;
 	
 		a = 10;
@@ -75,16 +75,16 @@ public class test
 		if(a>0)
 			System.out.println("greater than 0");
 		------------------------------------------------------
-		// if ¹® ÀÔ·Â°ª scanner ÀÌ¿ë
+		// if ë¬¸ ì…ë ¥ê°’ scanner ì´ìš©
 		Scanner s = new Scanner(System.in);
-		System.out.println("Á¡¼ö: ");
+		System.out.println("ì ìˆ˜: ");
 		
 		int score = s.nextInt();
 		
 		if(score > 60)
 			System.out.println("ok");
 		-------------------------------------------------------
-		//¹İº¹¹®
+		//ë°˜ë³µë¬¸
 		String hi;
 		hi = "Hi!!!!, BitCampus";
 		for(int i = 0; i < 5; i++)
@@ -92,13 +92,13 @@ public class test
 			System.out.println(hi);
 		}
 		---------------------------------------------------------
-		//3´Ü ¿¬»ê
+		//3ë‹¨ ì—°ì‚°
 		for(int i = 1; i <= 9; i++)
 		{
 			System.out.println("3 X " + i);
 		}
 		---------------------------------------------------------
-		// 3´Ü ¿¬»ê
+		// 3ë‹¨ ì—°ì‚°
 		int dan;
 		dan = 3;
 		
@@ -107,7 +107,7 @@ public class test
 			System.out.println(dan + "X" + i +  "=" + dan*i);
 		}
 		-----------------------------------------------------------
-		// °ª ÀÔ·Â ±¸±¸´Ü¿¬»ê
+		// ê°’ ì…ë ¥ êµ¬êµ¬ë‹¨ì—°ì‚°
 		Scanner s = new Scanner(System.in);
 		System.out.println("dan: ");
 		
@@ -117,7 +117,7 @@ public class test
 			System.out.println(a*i);
 		}
 		-----------------------------------------------------------
-		// °ª ÀÔ·Â ±¸±¸´Ü¿¬»ê
+		// ê°’ ì…ë ¥ êµ¬êµ¬ë‹¨ì—°ì‚°
 		Scanner s = new Scanner(System.in);
 		System.out.println("dan: ");
 		
@@ -127,7 +127,7 @@ public class test
 			System.out.println(dan + "X" + (i+1) +  "=" + dan*(i+1));
 		}
 		--------------------------------------------------------------
-		 // ¹®ÀÚ¿­ ¼ø¼­´ë·Î Ãâ·Â
+		 // ë¬¸ìì—´ ìˆœì„œëŒ€ë¡œ ì¶œë ¥
 		char c;
 		c = 'A';
 		
@@ -136,13 +136,13 @@ public class test
 			System.out.println(a);
 		}
 		--------------------------------------------------------------
-		// 1ºÎÅÍ 10±îÁöÀÇ ÇÕ ¿¬»ê
+		// 1ë¶€í„° 10ê¹Œì§€ì˜ í•© ì—°ì‚°
 		int sum = 0;
 		for (int i = 1; i <= 10; i++)
 			sum = sum + i;
 		System.out.println("sum=" + sum);
 		--------------------------------------------------------------
-		// Æ©ÇÃ
+		// íŠœí”Œ
 		int[] nu = {65, 95, 34, 27, 90};
 		int max = -99;
 		
@@ -153,13 +153,13 @@ public class test
 		}
 		System.out.println("max = " + max);
 		------------------------------------------------------------
-		// Æ©ÇÃ¾ÈÀÇ °ª ¼ø¼­¸¦ ÀÌ¿ëÇÑ ¿¬»ê
+		// íŠœí”Œì•ˆì˜ ê°’ ìˆœì„œë¥¼ ì´ìš©í•œ ì—°ì‚°
 		int[] nu= {3,1,9,4,5,3};
 		
 		System.out.println(nu[nu[3]] + nu[1]);
 		
 		---------------------------------------------------------
-		// ´ÙÁßfor¹®
+		// ë‹¤ì¤‘forë¬¸
 		for (int i = 0;i < 5; i++) {
 	         for (int j = 0; j < i; j++) {
 	            System.out.print(" ");
@@ -167,7 +167,7 @@ public class test
 	         System.out.println("*");
 		}
 		------------------------------------------------------------
-		// ¿¹¿ÜÃ³¸®
+		// ì˜ˆì™¸ì²˜ë¦¬
 		int x;
 		try {
 			x = 1/0;
@@ -176,7 +176,7 @@ public class test
 			System.out.println("Error divide by 0");
 		}
 		------------------------------------------------------------
-		// ¿¹¿ÜÃ³¸®
+		// ì˜ˆì™¸ì²˜ë¦¬
 		int x[] = new int[5];
 		x[3] = 3;
 		System.out.println(x[3]);
@@ -188,7 +188,7 @@ public class test
 			System.out.println("error");
 		}
 	    -------------------------------------------------------------------
-	    // ¸Ş¼Òµå1
+	    // ë©”ì†Œë“œ1
 	static void test() {
 		System.out.println("Hi!!!!");
 	}
@@ -197,11 +197,11 @@ public class test
 			test();
 		}
 		-----------------------------------------------------------------
-		// ¸Ş¼Òµå2
+		// ë©”ì†Œë“œ2
 		static int CalsSum(int x1, int x2) {
 			int h;
 			h = x1 + x2;
-			return(h); // void°ª Ãß°¡½Ã printÃß°¡
+			return(h); // voidê°’ ì¶”ê°€ì‹œ printì¶”ê°€
 		}
 		
 		public static void main(String[] args)
@@ -209,7 +209,7 @@ public class test
 			int hap = CalsSum(4, 9);
 			System.out.println(hap);
 	-----------------------------------------------------------------
-	// ¸Ş¼Òµå3
+	// ë©”ì†Œë“œ3
 	static void CalsSum(int x1, int x2) {
 		int h;
 		h = x1 + x2;
@@ -221,7 +221,7 @@ public class test
 		CalsSum(4, 9);
 		
 	-------------------------------------------------------------------
-	// ¸Ş¼Òµå4
+	// ë©”ì†Œë“œ4
 	static void gugu(int i, int j) {
 		for(i = 1; i <= 9; i++)
 			for(j=1; j <=9; j++)
@@ -231,7 +231,7 @@ public class test
 		gugu(1,1);
 	}
 	-------------------------------------------------------------------
-	// ¸Ş¼Òµå5
+	// ë©”ì†Œë“œ5
 	static void gugu(int dan) {
 		for(int i = 1; i <= 9; i++)
 				System.out.println(dan*i);
@@ -239,7 +239,7 @@ public class test
 		public static void main(String[] args) {
 		gugu(3);
 	--------------------------------------------------------------------
-	// ¸Ş¼Òµå6
+	// ë©”ì†Œë“œ6
 	static void guguCon(int x1) {
 	 int i =x1;
 	    int j= 0;
@@ -252,7 +252,7 @@ public class test
 	       }
 	       else
 	       {   
-	             System.out.println("¼ıÀÚ°¡ ³Ê¹« Å®´Ï´Ù");   
+	             System.out.println("ìˆ«ìê°€ ë„ˆë¬´ í½ë‹ˆë‹¤");   
 	       }   
 	   }
 	   public static void main(String[] args) {
@@ -260,7 +260,7 @@ public class test
 	      int num = s.nextInt();
 	       guguCon(num);
 	---------------------------------------------------------------------
-	// ¸Ş¼Òµå7
+	// ë©”ì†Œë“œ7
 	static void gugu(int dan) {
 		if(dan > 1 & dan < 10) {
 			for(int i = 1; i <= 9; i++) {
@@ -273,11 +273,11 @@ public class test
 	    int dan = s.nextInt();
 	    gugu(dan);
 	   ---------------------------------------------------------------------
-	   // Å¬·¡½º ±¸Çö °´Ã¼ÁöÇâ
+	   // í´ë˜ìŠ¤ êµ¬í˜„ ê°ì²´ì§€í–¥
 class Car {
 	int speed;
 	void run() {
-		System.out.println("ÀÚµ¿Â÷°¡ ½Ã¼Ó " + speed + "km·Î ´Ş¸°´Ù");
+		System.out.println("ìë™ì°¨ê°€ ì‹œì† " + speed + "kmë¡œ ë‹¬ë¦°ë‹¤");
 	}
 }
 public class test {
@@ -286,21 +286,21 @@ public class test {
 		c.speed = 30;
 		c.run();
 		---------------------------------------------------------------------
-		// Å¬·¡½º ±¸Çö °´Ã¼ÁöÇâ
+		// í´ë˜ìŠ¤ êµ¬í˜„ ê°ì²´ì§€í–¥
 class Car {
 	int speed;
 
 	void run() {
-		System.out.println("ÀÚµ¿Â÷°¡ ½Ã¼Ó " + speed + "km·Î ´Ş¸°´Ù");
+		System.out.println("ìë™ì°¨ê°€ ì‹œì† " + speed + "kmë¡œ ë‹¬ë¦°ë‹¤");
 	}
 
 	int speedup() {
 		speed += 5;
 		if (speed > 60) {
-			System.out.println("¼Óµµ°¡ ³Ê¹« ³ô½À´Ï´Ù");
+			System.out.println("ì†ë„ê°€ ë„ˆë¬´ ë†’ìŠµë‹ˆë‹¤");
 		}
 
-		System.out.println("ÀÚµ¿Â÷°¡ ½Ã¼Ó " + speed + "km·Î ´Ş¸°´Ù");
+		System.out.println("ìë™ì°¨ê°€ ì‹œì† " + speed + "kmë¡œ ë‹¬ë¦°ë‹¤");
 		return speed;
 	}
 
@@ -308,9 +308,9 @@ class Car {
 		speed -= 10;
 		if (speed < 0) {
 			speed = 0;
-			System.out.println("Â÷°¡ Á¤ÁöµÇ¾ú½À´Ï´Ù.");
+			System.out.println("ì°¨ê°€ ì •ì§€ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		}
-		System.out.println("ÀÚµ¿Â÷°¡ ½Ã¼Ó " + speed + "km·Î ´Ş¸°´Ù");
+		System.out.println("ìë™ì°¨ê°€ ì‹œì† " + speed + "kmë¡œ ë‹¬ë¦°ë‹¤");
 		return speed;
 	}
 

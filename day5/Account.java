@@ -12,7 +12,7 @@ public class Account {
 	}
 	public void withdraw(int money) throws BalanceInsufficientException {
 		if(balance < money) {
-			throw new BalanceInsufficientException("ÀÜ°íºÎÁ·:"+(money-balance)+" ¸ðÀÚ¶÷");
+			throw new BalanceInsufficientException("Ã€ÃœÂ°Ã­ÂºÃŽÃÂ·:"+(money-balance)+" Â¸Ã°Ã€ÃšÂ¶Ã·");
 		}
 		balance -= money;
 	}

@@ -7,8 +7,8 @@ public class Calculator {
 		return memory;
 	}
 
-	public synchronized void setMemory(int memory) { //´Ü ÇÏ³ªÀÇ ½º·¹µå¸¸ ½ÇÇà
-		this.memory = memory; // ÀÓ°è¿µ¿ª
+	public synchronized void setMemory(int memory) { //ë‹¨ í•˜ë‚˜ì˜ ìŠ¤ë ˆë“œë§Œ ì‹¤í–‰
+		this.memory = memory; // ì„ê³„ì˜ì—­
 		try {
 			Thread.sleep(2000);
 		} catch(InterruptedException e) {}	

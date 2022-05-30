@@ -3,9 +3,9 @@ class Parent {
 	}
 }
 class Child extends Parent {
-	@Override // »ç¿ë½Ã ¿¡·¯¸Ş½ÃÁö Ãâ·Â ¾î³íÅ×ÀÌ¼Ç
+	@Override // ì‚¬ìš©ì‹œ ì—ëŸ¬ë©”ì‹œì§€ ì¶œë ¥ ì–´ë…¼í…Œì´ì…˜
 	void Mymethod() {	
-		// ÀçÁ¤ÀÇ
+		// ì¬ì •ì˜
 	}
 }
 public class AnnotationTest {

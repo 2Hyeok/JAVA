@@ -1,16 +1,16 @@
-// Ãß»óÈ­
+// ì¶”ìƒí™”
 // abstract class Shape { }
 
 /*
-// 1. Ãß»ó ¸Ş¼Òµå¸¦ Æ÷ÇÔÇÏ´Â Ãß»ó Å¬·¡½º
-abstract class Shape { // Ãß»ó Å¬·¡½º ¼±¾ğ
+// 1. ì¶”ìƒ ë©”ì†Œë“œë¥¼ í¬í•¨í•˜ëŠ” ì¶”ìƒ í´ë˜ìŠ¤
+abstract class Shape { // ì¶”ìƒ í´ë˜ìŠ¤ ì„ ì–¸
 	public Shape() { }
 	public void paint() { draw(); }
-	abstract public void draw(); // Ãß»ó ¸Ş¼Òµå
+	abstract public void draw(); // ì¶”ìƒ ë©”ì†Œë“œ
 }
 
-// 2. Ãß»ó ¸Ş¼Òµå ¾ø´Â Ãß»ó Å¬·¡½º
-abstract class MyComponent { // Ãß»ó Å¬·¡½º ¼±¾ğ
+// 2. ì¶”ìƒ ë©”ì†Œë“œ ì—†ëŠ” ì¶”ìƒ í´ë˜ìŠ¤
+abstract class MyComponent { // ì¶”ìƒ í´ë˜ìŠ¤ ì„ ì–¸
 	String name;
 	public void load(String name) {
 	this.name = name;
@@ -24,7 +24,7 @@ abstract class A {
 		System.out.println("Calss A");
 	}
 
-	abstract void printA(); // ÇÏÀ§¿¡ ±¸Çö
+	abstract void printA(); // í•˜ìœ„ì— êµ¬í˜„
 }
 
 class B extends A {
@@ -39,10 +39,10 @@ public class AbstractEx01 {
 		b.print();
 		b.printA();
 
-		// A a = new A(); - Ãß»óÀûÀÌ±â¶§¹®¿¡ ¾Ö¸ÅÇØ¼­ °´Ã¼ »ı¼ººÒ°¡
+		// A a = new A(); - ì¶”ìƒì ì´ê¸°ë•Œë¬¸ì— ì• ë§¤í•´ì„œ ê°ì²´ ìƒì„±ë¶ˆê°€
 		A a = new B();
 		a.print();
-		a.printA(); // Ãß»ó¸Ş¼Òµå
+		a.printA(); // ì¶”ìƒë©”ì†Œë“œ
 	}
 
 }

@@ -1,16 +1,16 @@
-// °°Àº ÀÌ¸§ÀÇ ¸Ş¼Òµå¸¦ ¿©·¯°³ Á¤ÀÇ
-// »õ·Î¿î ¸Ş¼Òµå¸¦ Á¤ÀÇ
+// ê°™ì€ ì´ë¦„ì˜ ë©”ì†Œë“œë¥¼ ì—¬ëŸ¬ê°œ ì •ì˜
+// ìƒˆë¡œìš´ ë©”ì†Œë“œë¥¼ ì •ì˜
 /*
 class Parent01 {
 	void display() {
-		System.out.println("ºÎ¸ğÅ¬·¡½º");
+		System.out.println("ë¶€ëª¨í´ë˜ìŠ¤");
 	}
 }
 class Child01 extends Parent01 {
 	void display() {
-		System.out.println("ÀÚ½ÄÅ¬·¡½º");
+		System.out.println("ìì‹í´ë˜ìŠ¤");
 }
-// ¿À¹ö·Îµù
+// ì˜¤ë²„ë¡œë”©
 void display(String str) {
 	System.out.println(str);
 	}
@@ -19,18 +19,18 @@ public class OverLoading01 {
 	public static void main(String[] args) {
 		Child01 c = new Child01();
 		c.display();
-		c.display("¿À¹ö·ÎµùµÈ ¸Ş¼Òµå");
+		c.display("ì˜¤ë²„ë¡œë”©ëœ ë©”ì†Œë“œ");
 	}
 }
 */
 
 class Overloading02 {
 	void method01() {
-		System.out.println("±âº» ¸Ş¼Òµå È£Ãâ");
+		System.out.println("ê¸°ë³¸ ë©”ì†Œë“œ í˜¸ì¶œ");
 	}
 
 	void method01(int x, int y) {
-		System.out.println("¸Å°³º¯¼ö°¡ ÀÖ´Â ¸Ş¼Òµå È£Ãâ");
+		System.out.println("ë§¤ê°œë³€ìˆ˜ê°€ ìˆëŠ” ë©”ì†Œë“œ í˜¸ì¶œ");
 	}
 }
 

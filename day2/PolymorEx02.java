@@ -1,12 +1,12 @@
-// ¿À¹ö¶óÀÌµù
+// ì˜¤ë²„ë¼ì´ë”©
 class Parent {
 	void display() {
-		System.out.println("ºÎ¸ğÅ¬·¡½º ¸Ş¼Òµå");
+		System.out.println("ë¶€ëª¨í´ë˜ìŠ¤ ë©”ì†Œë“œ");
 	}
 }
 class Child extends Parent {
 	void display() {
-		System.out.println("ÀÚ½ÄÅ¬·¡½º ¸Ş¼Òµå");
+		System.out.println("ìì‹í´ë˜ìŠ¤ ë©”ì†Œë“œ");
 	}
 }
 

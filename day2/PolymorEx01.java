@@ -1,40 +1,40 @@
 /* overriding vs overloading
-   overriding - °°Àº ÀÌ¸§ÀÇ ¸Ş¼Òµå¸¦ ÀçÁ¤ÀÇ(±âÁ¸ ±â´É ¼öÁ¤)
-   overloading - ÀÌ¸§Àº °°Áö¸¸ ´Ù¸¥ ±â´É(»õ·Î¿î ¸Ş¼ÒµåÀÇ Á¤ÀÇ)
+   overriding - ê°™ì€ ì´ë¦„ì˜ ë©”ì†Œë“œë¥¼ ì¬ì •ì˜(ê¸°ì¡´ ê¸°ëŠ¥ ìˆ˜ì •)
+   overloading - ì´ë¦„ì€ ê°™ì§€ë§Œ ë‹¤ë¥¸ ê¸°ëŠ¥(ìƒˆë¡œìš´ ë©”ì†Œë“œì˜ ì •ì˜)
    
    when inheritance,
    @overriding, @overloading
 */
 /*
-¿À¹ö·Îµù
+ì˜¤ë²„ë¡œë”©
 class Parent {
 	void display() {
-		System.out.println("ºÎ¸ğÅ¬·¡½º ¸Ş¼Òµå");
+		System.out.println("ë¶€ëª¨í´ë˜ìŠ¤ ë©”ì†Œë“œ");
 	}
 }
 class Child extends Parent {
 	void display() {
-		System.out.println("ÀÚ½ÄÅ¬·¡½º ¸Ş¼Òµå");
+		System.out.println("ìì‹í´ë˜ìŠ¤ ë©”ì†Œë“œ");
 	}
 }
 ----------------------------------------------
-¿À¹ö¶óÀÌµù
+ì˜¤ë²„ë¼ì´ë”©
 class Parent {
 	void display() {
-		System.out.println("ºÎ¸ğÅ¬·¡½º");
+		System.out.println("ë¶€ëª¨í´ë˜ìŠ¤");
 	}
 }
 	class Child extends Parent {
 		void display() {
-			System.out.println("ÀÚ½ÄÅ¬·¡½º");
+			System.out.println("ìì‹í´ë˜ìŠ¤");
 	}
-// ¿À¹ö·Îµù
+// ì˜¤ë²„ë¡œë”©
 		void display(String str) {
 			System.out.println(str);
 		}
 }
 	*/
-// ¸Ş¼Òµå ¿À¹ö¶óÀÌµù »ç·Ê
+// ë©”ì†Œë“œ ì˜¤ë²„ë¼ì´ë”© ì‚¬ë¡€
 class Shape {
 	public void draw() {
 		System.out.println("shape");

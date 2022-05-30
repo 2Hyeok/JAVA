@@ -7,20 +7,20 @@ class Car4 {
 
 	boolean isLeftGas() {
 		if (gas == 0) {
-			System.out.println("gas°¡ ¾ø½À´Ï´Ù");
+			System.out.println("gasê°€ ì—†ìŠµë‹ˆë‹¤");
 			return false;
 		}
-		System.out.println("gas°¡ ÀÖ½À´Ï´Ù");
+		System.out.println("gasê°€ ìˆìŠµë‹ˆë‹¤");
 		return true;
 	}
 
 	void run() {
 		while (true) {
 			if (gas > 0) {
-				System.out.println("´Ş¸³´Ï´Ù.(gasÀÜ·® : " + gas + ")");
+				System.out.println("ë‹¬ë¦½ë‹ˆë‹¤.(gasì”ëŸ‰ : " + gas + ")");
 				gas -= 1;
 			} else {
-				System.out.println("¸ØÃä´Ï´Ù.(gasÀÜ·® : " + gas + ")");
+				System.out.println("ë©ˆì¶¥ë‹ˆë‹¤.(gasì”ëŸ‰ : " + gas + ")");
 				return;
 			}
 		}
@@ -35,13 +35,13 @@ public class GacEx {
 
 		boolean gasState = myCar.isLeftGas();
 		if (gasState) {
-			System.out.println("Ãâ¹ßÇÕ´Ï´Ù");
+			System.out.println("ì¶œë°œí•©ë‹ˆë‹¤");
 			myCar.run();
 		}
 		if (myCar.isLeftGas()) {
-			System.out.println("gas¸¦ ÁÖÀÔÇÒ ÇÊ¿ä°¡ ¾ø½À´Ï´Ù");
+			System.out.println("gasë¥¼ ì£¼ì…í•  í•„ìš”ê°€ ì—†ìŠµë‹ˆë‹¤");
 		} else {
-			System.out.println("gas¸¦ ÁÖÀÔÇÏ¼¼¿ä");
+			System.out.println("gasë¥¼ ì£¼ì…í•˜ì„¸ìš”");
 		}
 	}
 }

@@ -1,6 +1,6 @@
-/* ¿¬½À¹®Á¦
- * Å¬·¡½º¸¦ »ç¿ëÇÏ¿© a=3 b=5 ¸¦ ´ëÀÔÈÄ
- *  c= a*a + b*b ¸¦ Ã³¸®ÇßÀ»¶§ c¸¦ È­¸é¿¡ Ãâ·Â
+/* ì—°ìŠµë¬¸ì œ
+ * í´ë˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ a=3 b=5 ë¥¼ ëŒ€ì…í›„
+ *  c= a*a + b*b ë¥¼ ì²˜ë¦¬í–ˆì„ë•Œ cë¥¼ í™”ë©´ì— ì¶œë ¥
  */
 /*class num{
 	int a = 3;
@@ -32,30 +32,30 @@ public class classEx {
 	}
 }
 */
-/* Å¬·¡½º¸¦ »ç¿ëÇÏ¿© ÇÁ·Î±×·¡¹Ö
-	name ÀÌ¶ó´Â º¯¼ö¿¡ ÀÌ¸§À» ´ëÀÔÇÏ°í age¶ó´Â º¯¼ö¿¡ ³ªÀÌ¸¦ ´ëÀÔ½ÃÅ² ÈÄ °á°ú°¡ ³ª¿Àµµ·Ï
+/* í´ë˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ í”„ë¡œê·¸ë˜ë°
+	name ì´ë¼ëŠ” ë³€ìˆ˜ì— ì´ë¦„ì„ ëŒ€ì…í•˜ê³  ageë¼ëŠ” ë³€ìˆ˜ì— ë‚˜ì´ë¥¼ ëŒ€ì…ì‹œí‚¨ í›„ ê²°ê³¼ê°€ ë‚˜ì˜¤ë„ë¡
 */
 /*
 class Classage{
 	void print(String name, int age) {
-	System.out.println(name+"ÀÇ ³ªÀÌ´Â" + age + "»ì ÀÔ´Ï´Ù");
+	System.out.println(name+"ì˜ ë‚˜ì´ëŠ”" + age + "ì‚´ ì…ë‹ˆë‹¤");
 		
 	}
 }
 public class classEx {
 	public static void main(String[] args) {
 		name c = new neme();
-		c.print("È«±æµ¿",21);
+		c.print("í™ê¸¸ë™",21);
 	}
 }
 */
 
-// Å¬·¡½º»ç¿ë 1ºÎÅÍ n±îÁöÀÇ ÇÕ ±¸ÇÏ±â
+// í´ë˜ìŠ¤ì‚¬ìš© 1ë¶€í„° nê¹Œì§€ì˜ í•© êµ¬í•˜ê¸°
 /*
 class Classsum{
 	int sum;
 	int hap(int n) {
-		sum = 0; // ÃÊ±âÈ­
+		sum = 0; // ì´ˆê¸°í™”
 		for(int i = 1; i <= n; i++) {
 			sum += i;
 		}
@@ -70,15 +70,15 @@ public class classEx {
 	}
 }
 */
-// 1¶Ç´Â 3ÀÌ¸é ³²ÀÚ 2¶Ç´Â 4ÀÌ¸é ¿©ÀÚ Ãâ·Â ±×¿Ü ¼ıÀÚ´Â ¿À·ù
+// 1ë˜ëŠ” 3ì´ë©´ ë‚¨ì 2ë˜ëŠ” 4ì´ë©´ ì—¬ì ì¶œë ¥ ê·¸ì™¸ ìˆ«ìëŠ” ì˜¤ë¥˜
 class num {
 	void number(int a) {
 		if (a == 1 || a == 3) {
-			System.out.println("³²ÀÚ");
+			System.out.println("ë‚¨ì");
 		} else if (a == 2 || a == 4) {
-			System.out.println("¿©ÀÚ");
+			System.out.println("ì—¬ì");
 		} else
-			System.out.println("ÀÔ·Â¿À·ù");
+			System.out.println("ì…ë ¥ì˜¤ë¥˜");
 	}
 }
 

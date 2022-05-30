@@ -1,16 +1,16 @@
-// »ó¼Ó °ü°è¿¡ ÀÖ´Â Å¬·¡½º °£ ¸â¹ö Á¢±Ù
-// ¿À·ùÈ®ÀÎÀÌ¶ó Ãâ·Âx
+// ìƒì† ê´€ê³„ì— ìˆëŠ” í´ë˜ìŠ¤ ê°„ ë©¤ë²„ ì ‘ê·¼
+// ì˜¤ë¥˜í™•ì¸ì´ë¼ ì¶œë ¥x
 class Person {
 	private int weight;
 	int age;
 	protected int height;
 	public String name;
 
-	public void setWeight(int weight) { // set Àº ¼³Á¤ÀÚ
+	public void setWeight(int weight) { // set ì€ ì„¤ì •ì
 		this.weight = weight;
 	}
 
-	public int getWeight() { // getÀº Á¢±ÙÀÚ
+	public int getWeight() { // getì€ ì ‘ê·¼ì
 		return weight;
 	}
 }
@@ -18,12 +18,12 @@ class Person {
 class StudentA extends Person {
 	public void set() {
 		age = 30;
-		name = "È«±æµ¿";
+		name = "í™ê¸¸ë™";
 		height = 175;
 		// weight = 99;
 		setWeight(99);
 
-		// Ãâ·Â¹® Ãß°¡½Ã Ãâ·Â°¡´É
+		// ì¶œë ¥ë¬¸ ì¶”ê°€ì‹œ ì¶œë ¥ê°€ëŠ¥
 		System.out.println(name);
 	}
 }

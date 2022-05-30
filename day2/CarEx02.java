@@ -1,7 +1,7 @@
 class Car2{
-	String company = "а╕Ёв╫ц╫╨";
+	String company = "ц│б╕бЁц≈б╫ц┐б╫б╨";
 	String model = "GV80";
-	String color = "╟ка╓";
+	String color = "б╟ц▀ц│б╓";
 	int maxSpeed = 300;
 	
 	Car2(){
